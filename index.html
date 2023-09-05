@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santos Turismo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="Img/favicon.png" rel="icon">
+  <link href="Img/apple-touch-icon.png" rel="apple-touch-icon">
+
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-dark text-center">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Santos Turismo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#PontosTurísticos">Pontos Turísticos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Restaurantes">Comida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contato">
+                Contato
+              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#mapas">
+                <i class="bi bi-geo-alt"></i>
+              </a>
+          </ul>
+          </li>
+          </ul>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Img/Carouselimg/SantosPontaDaPraia.jpg" class="d-block w-100" alt="PontaDaPraia">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Img/Carouselimg/VilaBelmiro.jpg" class="d-block w-100" alt="VilaBelmiro">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Img/Carouselimg/SantosPraia.jpg" class="d-block w-100" alt="SantosPraia">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <section>
+    <h2 id="ConhecaSantos">Conheça Santos!</h2>
+    <p>Uma metrópole em crescimento com a simplicidade caiçara
+      Localizada no litoral paulista e a 72 quilômetros da Capital, a cidade ostenta o 5º lugar no ranking de qualidade
+      de vida dos municípios brasileiros, conforme Índice de Desenvolvimento Humano (IDH) aferido pela Organização das
+      Nações Unidas (ONU) com base nos níveis de expectativa de vida, educação e PIB per capita.
+
+      As atividades ligadas ao Porto - o maior da América Latina, com 13 quilômetros de extensão e por onde passa mais
+      de um quarto de todas as cargas que entram e saem do Brasil, configuram como principal fonte de riquezas do
+      município, fazendo de Santos a cidade da Região Metropolitana da Baixada Santista mais importante economicamente e
+      uma das mais ricas do País.
+
+      Os setores do turismo, de serviços e da pesca em geral completam a lista de maiores atividades da economia
+      santista. De um lado a economia pujante, de outro sua vocação para o lazer. Santos tem como principal atrativo os
+      sete quilômetros de praia, acompanhados pelo maior jardim de orla do mundo - título concedido pelo Guinness World
+      Records.
+
+      Em pé de igualdade com os jardins e a praia, como principais pontos turísticos e cartões-postais da Cidade, está o
+      Centro Histórico. Região vizinha ao complexo portuário, o Centro conserva vivo em suas estreitas e charmosas ruas
+      com calçamento de pedra um passado de glórias com a comercialização do café, que já figurou como principal produto
+      de exportação brasileiro. A Cidade tem se destacado também no turismo de negócios e no ecoturismo, já que quase a
+      totalidade de sua porção continental se mantém preservada, o que demonstra a prioridade pela conservação do
+      ambiente.
+
+      Por suas diversas característas economica, infraestrutural e de serviços, Santos posição de destaque no cenário
+      nacional: é a 1ª cidade do Brasil em qualidade de vida, segundo ranking BCI-100, desenvolvido pela Delta Economics
+      & Finance Santos; foi eleita a melhor cidade para se viver após os 60 anos pelo Índice de Desenvolvimento Urbano
+      para Longevidade (IDL) - iniciativa do Instituto de Longevidade Mongeral Aegon, e mantém o Título de Cidade
+      Educadora desde 2008, concedido pela Associação Internacional de Cidades Educadoras (Aice) Desde 2015, a cidade
+      integra a Rede de Cidades Criativas da Unesco</p>
+    <br>
+    <h2>Dados Geográficos!</h2>
+    <p>Dados geográficos
+      População: 433.991 pessoas (Estimativa 2021 - Instituto Brasileiro de Geografia Estatística/IBGE)
+
+      Área Total: 281,033km²
+
+      Área insular: 39,4km²
+
+      Área continental: 231,6km²
+
+      Distância da Capital do Estado - São Paulo (SP): 72km
+
+      Temporada de veraneio: Dezembro a Março
+
+      Aniversário: 26 de Janeiro
+
+      Área preservada: 150km² (55.71%)
+
+      Temperatura: 25ºC - média anual
+
+      Aspecto Econômico: como maior cidade do litoral de São Paulo, tem no Porto a principal atividade
+
+      Índice de Desenvolvimento Humano: 0,840 (6º lugar do Brasil)
+    </p>
+  </section>
+  <div class="row">
+    <figure class="col">
+      <img src="Img/imgtimeline/EntradaSantos.jpg" alt="EntradaSantos">
+      <figcaption>Imagem Entrada De Santos</figcaption>
+    </figure>
+  </div>
+  <section class="container-fluid bg-dark text-center">
+    <h2 id="PontosTurísticos">Pontos Turísticos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 bg-dark">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Img/CardImg/ShoppingPraiamr.jpg" class="card-img-top" alt="ShoppingPraiamar">
+          <div class="card-body">
+            <h5 class="card-title">Shopping PraiaMar</h5>
+            <p class="card-text">O Melhor shopping da baixada Santista!</p>
+          </div>
+          <br><br>
+          <h4>Veja Como Chegar!</h4>
+          <a class="btn btn-dark" href="https://goo.gl/maps/hLVfvgcSY4pDkaVk8" role="button">Localização</a>
+          <div class="card-footer">
+            <small class="text-body-secondary">.</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Img/CardImg/PraiaC6.jpg" class="card-img-top" alt="PraiaC6">
+          <div class="card-body">
+            <h5 class="card-title">Praia Do Farol, Canal6</h5>
+            <p class="card-text">A praia destaque de santos, possui muitas barracas com variedades de comida!</p>
+          </div>
+          <h4>Veja Como Chegar!</h4>
+          <a class="btn btn-dark" href="https://goo.gl/maps/7Lhn6B7THVHyFphL9" role="button">Localização</a>
+          <div class="card-footer">
+            <small class="text-body-secondary">.</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Img/CardImg/Santosaquario.jpg" class="card-img-top" alt="SantosAquario">
+          <div class="card-body">
+            <h5 class="card-title">Aquário De Santos</h5>
+            <p class="card-text">Se Você procura uma atração turistica para a familía o aquário é o ponto certo!</p>
+          </div>
+          <h4>Veja Como Chegar!</h4>
+          <a class="btn btn-dark" href="https://goo.gl/maps/SBYFoTYFgiTct1uF6" role="button">Localização</a>
+          <div class="card-footer">
+            <small class="text-body-secondary">.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h2 id="Restaurantes">Conheça Um Pouco Das Comidas Da Nossa Cidade </h2>
+  <p>Aqui em santos ás redes fastfood e Restaurante estão cada vez maior, venha conferir um pouco dessa variedade!</p>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="Img/CardImg/CardImgFastFood/Cheedarmcmelt.png" class="card-img-top" alt="Mc Donald's">
+        <div class="card-body">
+          <h5 class="card-title">Cheedar McMelt</h5>
+          <p class="card-text">A Rede De FastFood Em Santos Atrai Muito Público Um Dos Restaurentes Mais Visitados Por
+            Turistas É O Próprio Mc Donald's</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Img/CardImg/CardImgFastFood/Sushi.jpg" class="card-img-top" alt="Japa">
+        <div class="card-body">
+          <h5 class="card-title">Famoso "JAPA"</h5>
+          <p class="card-text">Cada Vez Mais Em Santos A Cultura Japonesa Tem Crescido Muito Em Santos E Está Sendo Uma
+            Das Mais Pedidas, Com Várias Opções E Restaurantes!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Img/CardImg/CardImgFastFood/Pizza.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza</h5>
+          <p class="card-text">A mais pedida da noite após uma cansativa curtição na praia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center"></div>
+    <h2 id="mapas">Aqui está o Mapa De Santos Para Você Achar, O Que Procura!
+    </h2>
+  </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466427.5002851447!2d-46.61148040266967!3d-24.03230478880432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03b97cc7856f%3A0x3ff3e507b04bbc46!2sSantos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1693525727725!5m2!1spt-BR!2sbr"
+    frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+  <section class="container-fluid bg-dark">
+    <h2 id="Contato" class="text-center">Área Para Contato</h2>
+    <form method="GET" action="">
+      <fieldset>
+        <legend class="text-center">Dados Para Contato</legend>
+
+        <div class="mb-3">
+          <label class="form-label" for="nome">
+            nome:
+          </label><br>
+          <input type="text" class="form-control" name="nome" id="nome">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="Email">
+            Email:
+          </label><br>
+          <input type="email required" class="form-control" name="Email" id="Email">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="Mensagem">
+            Deixe Sua Mensagem:
+          </label><br>
+          <input type="text" class="form-control" name="Mensagem" id="Mensagem">
+        </div>
+      </fieldset>
+      <section class="container-fluid bg-dark text-center">
+        <form action="/action_page.php"></form>
+        <fieldset>
+          <p>Avalie Nosso Site</p>
+          <select name="Avaliação">
+            <option value="1Estrela">Uma Estrela</option>
+            <option value="2Estrelas">Duas Estrelas</option>
+            <option value="3Estrelas">Três Estrelas</option>
+            <option value="4Estrelas">Quatro Estrelas</option>
+            <option value="5Estrelas">Cinco Estrelas</option>
+          </select>
+          <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</a>
+          <div class="card-footer">
+            <small class="text-body-secondary">.</small>
+      </section>
+      <footer class="container-fluid bg-dark p-2 text-center">
+        <p>
+        <h6>© CopyRight 2023 - Todos Direitos Reservados</h6>
+        </p>
+        <p>
+        <h6>Desenvolvido por Guilherme</h6>
+        </p>
+
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Santos Turismo</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Deseja enviar suas informações?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+        <a href="Dados.html" type="button" class="btn btn-success">Confirmar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
